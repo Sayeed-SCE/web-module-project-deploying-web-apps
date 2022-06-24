@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  
+}
+
+.App-header {
+  background-color: goldenrod;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: row;
+  justify-content: left;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Nebula {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: row-reverse;
+  justify-content: left;
+
+}
+.App-footer {
+  background-color: gainsboro;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-content: right;
+  font-size: calc(10px + 2vmin);
+
+}
+
+@keyframes App-logo-spin {
+  
+}
